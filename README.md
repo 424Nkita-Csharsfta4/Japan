@@ -2,4 +2,4 @@
 Сайт для изучения Японского все известные ресурсы и информация для изучения
 
 
-https://sun9-north.userapi.com/sun9-81/s/v1/ig2/Hckt_ZNMZ1MMQTqqaFLOejYcKKfTawITQNY4zPKZqQO2NKzCo04F33LXMuzQl-vVWOzhifIRKDK6WZlFjmPZcgRE.jpg?size=1683x844&quality=96&type=album
+![image](https://user-images.githubusercontent.com/103760832/188331829-2d4fcde2-65c5-41a0-a17a-98ce5895debb.png)
