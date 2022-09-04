@@ -1,0 +1,318 @@
+body {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+   margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+}
+hr{
+  color: #FFFF00 !important;
+  border:1px solid white !important;
+}
+
+.Line {
+  border: 1px solid yellow !important;
+  width: 100%;
+  color: white
+}
+.Top_Most,.Top_Most a{
+
+   outline: none;
+   color: gold;
+   font-size: 11px;
+   text-decoration-line:none;
+   padding: 15px; 
+}
+.home-background{
+  background:url("https://wallpaper.dog/large/10710429.jpg");
+  width: 100%;
+  height: auto;
+  margin: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 45px;
+}
+.logo{
+ color: red;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 white, 1px 2px 0 white, 1px 3px 0 white, 1px 4px 0 gold,
+    1px 5px 0 white, 1px 6px 0 white, 1px 7px 0 white, 1px 8px 0 lime,
+    5px 13px 15px yellow;
+}
+.logo:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 white, 1px -2px 0 white, 1px -3px 0 white,
+    1px -4px 0 white, 1px -5px 0 white, 1px -6px 0 white, 1px -7px 0 white,
+    1px -8px 0 white, 5px -13px 15px yellow, 5px -13px 20px white;
+}
+.Header-top{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+nav {
+  background:transparent;
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-top: 6px;
+ }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px;
+  }
+  nav ul li a{
+  color: red !important  text-shadow:0 0 102px #0fa;
+   font-size: 18px; 
+   padding: 7px 13px; 
+   border-radius: 8px; 
+   text-decoration-line:none !important;
+}
+nav ul li a.active,nav ul li a:hover{
+  background:#b1d22d;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 0px;
+  cursor: pointer;
+  display: none;
+}
+.checkbtn i{
+  font-size: 25px !important;
+  color: #b1d22d;
+}
+#check{
+  display: none;
+}
+@media (max-width: 990px){
+    .logo{
+      font-size: 30px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background:#111111e3;
+      top: 72px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 1;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background:#b1d22d;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .top-con{
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .Top_Most,.Line{
+      display: none;
+    }
+    #navba{
+      background-color: #3330;
+      color: red;
+      max-width: 100%;
+      padding: 0px 20px;
+    }
+
+}
+.main-text{
+color: yellow;
+  text-align: center;
+  padding-top: 320px;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 40px;
+  font-weight: 700;
+}
+.main-text-two{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  font-weight: 300;
+}
+@media (max-width: 990px){
+  .main-text{
+    font-size: xx-large;
+    padding-top: 150px;
+  }
+}
+@media (max-width: 499px){
+  .main-text{
+    font-size: x-large;
+  }
+  .main-text-two{
+    font-size: medium;
+  }
+}
+.box{
+  height: 100%;
+  width: 100%;
+  background-color: #4441414f;
+  padding: 20px 20px 10px 20px;
+  margin-top: 120px;
+  margin-bottom: 40px !important;
+}
+.box h4{
+  font-weight: 400 !important;
+}
+h4{
+  color: white !important;
+  font-weight: 300 !important;
+  font-size: 20px !important;
+}
+i{
+  color: red;
+  font-size: 20px !important;
+}
+.text-edit{
+  background:transparent;
+  border:none;
+  outline: none !important;
+  color: white;
+}
+.text-edits{
+  background:transparent;
+  border:none;
+  outline: none !important;
+  color: white;
+  font-size: 17px;
+}
+.search-body i{
+  color: white;
+  font-size: 26px !important;
+  padding: 17px 15px;
+}
+.search-btn{
+  background-color: gold;
+  border-radius: 10px;
+  margin-top: 3px;
+  border:none;
+  outline: none !important;
+  width: 100%;
+}
+#SERVICES{
+  margin-top: 40px;
+}
+.s-name h2{
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  margin:80px 0px 18px 0px;
+}
+.small-line{
+  border:0.5px solid red;
+  display: block;
+  margin: auto;
+  margin-bottom: 85px;
+  width: 75px;
+}
+.ser-name h2{
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 23px;
+  color: red;
+  padding: 20px 0px 5px 0px;
+}
+.ser-box{
+  width: 100% !important;
+  background-color: #efebeb87;
+  text-align: center;
+  padding: 30px 0px 25px 0px;
+  margin-bottom: 60px;
+  box-shadow: 1px 2px 2px 0px rgba(51,52,54,0.2);
+}
+.ser-box:hover{
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 16px 22px 0px rgba(90,91,95,0.3);
+  top: -5px;
+}
+.po{
+ color: #e74c3c;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+  a:hover{
+  color: #222;
+}
+
+a:before, a:after{
+  content: '';
+  background: #e74c3c;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+a:before{
+  top: 0;
+  left: 0;
+}
+
+a:after{
+  top: 100%;
+  right: 0;
+}
+
+a:hover:before, a:hover:after{
+  width: 100%;
+}
